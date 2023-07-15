@@ -6,9 +6,9 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/datadrivers/go-nexus-client/nexus3/pkg/client"
-	"github.com/datadrivers/go-nexus-client/nexus3/pkg/tools"
-	"github.com/datadrivers/go-nexus-client/nexus3/schema/security"
+	"github.com/nduyphuong/go-nexus-client/nexus3/pkg/client"
+	"github.com/nduyphuong/go-nexus-client/nexus3/pkg/tools"
+	"github.com/nduyphuong/go-nexus-client/nexus3/schema/security"
 )
 
 const (

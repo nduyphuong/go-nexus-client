@@ -1,8 +1,8 @@
 package gitlfs
 
 import (
-	"github.com/datadrivers/go-nexus-client/nexus3/pkg/client"
-	"github.com/datadrivers/go-nexus-client/nexus3/pkg/repository/common"
+	"github.com/nduyphuong/go-nexus-client/nexus3/pkg/client"
+	"github.com/nduyphuong/go-nexus-client/nexus3/pkg/repository/common"
 )
 
 const (

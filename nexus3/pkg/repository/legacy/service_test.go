@@ -3,9 +3,9 @@ package legacy
 import (
 	"testing"
 
-	"github.com/datadrivers/go-nexus-client/nexus3/pkg/client"
-	"github.com/datadrivers/go-nexus-client/nexus3/pkg/tools"
-	"github.com/datadrivers/go-nexus-client/nexus3/schema/repository"
+	"github.com/nduyphuong/go-nexus-client/nexus3/pkg/client"
+	"github.com/nduyphuong/go-nexus-client/nexus3/pkg/tools"
+	"github.com/nduyphuong/go-nexus-client/nexus3/schema/repository"
 	"github.com/stretchr/testify/assert"
 )
 

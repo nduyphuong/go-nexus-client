@@ -1,6 +1,6 @@
 package security
 
-import "github.com/datadrivers/go-nexus-client/nexus3/pkg/client"
+import "github.com/nduyphuong/go-nexus-client/nexus3/pkg/client"
 
 const (
 	securityAPIEndpoint = client.BasePath + "v1/security"
