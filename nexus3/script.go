@@ -3,8 +3,8 @@ package nexus3
 import (
 	"encoding/json"
 	"fmt"
-	"io"
 	"net/http"
+	"strings"
 
 	"github.com/nduyphuong/go-nexus-client/nexus3/pkg/client"
 	"github.com/nduyphuong/go-nexus-client/nexus3/pkg/tools"
@@ -105,8 +105,9 @@ func (s *ScriptService) Delete(name string) error {
 	return err
 }
 
-func (s *ScriptService) Run(name string, payload io.Reader) error {
-	body, resp, err := s.Client.Post(fmt.Sprintf("%s/%s/run", scriptsAPIEndpoint, name), payload)
+func (s *ScriptService) Run(name string, payload string) error {
+	r := strings.NewReader(payload)
+	body, resp, err := s.Client.Post(fmt.Sprintf("%s/%s/run", scriptsAPIEndpoint, name), r)
 	if err != nil {
 		return err
 	}
